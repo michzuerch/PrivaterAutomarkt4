@@ -1,6 +1,7 @@
 <script>
 	import '../app.css';
-	import 'bootstrap/dist/css/bootstrap.min.css';
+	import '@splidejs/splide/dist/css/themes/splide-skyblue.min.css';
+	import '@splidejs/splide/dist/css/splide.min.css';
 	import Navbar from '../components/navbar.svelte';
 </script>
 
