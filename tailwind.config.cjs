@@ -16,7 +16,7 @@ module.exports = {
 			indigo: colors.indigo,
 			blue: colors.blue,
 			lightBlue: colors.sky, // Only in Tailwind CSS <=v2.1
-			sky: colors.sky, // As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`  
+			sky: colors.sky, // As of Tailwind CSS v2.2, `lightBlue` has been renamed to `sky`
 			cyan: colors.cyan,
 			teal: colors.teal,
 			emerald: colors.emerald,
@@ -30,9 +30,15 @@ module.exports = {
 			trueGray: colors.neutral,
 			gray: colors.gray,
 			blueGray: colors.slate,
-			coolGray: colors.gray,
+			coolGray: colors.gray
 		},
-		extend: {}
+		extend: {
+			fontFamily: {
+				mont: ['Montserrat', 'sans-serif'],
+				fira: ['"Fira Sans"', 'Helvetica', 'sans-serif'],
+				lato: ['Lato', 'Helvetica', 'sans-serif']
+			}
+		}
 	},
 	plugins: []
 };
