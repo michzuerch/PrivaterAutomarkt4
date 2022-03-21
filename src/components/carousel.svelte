@@ -1,4 +1,5 @@
 <script lang="ts">
+	import type { Options } from '@splidejs/splide';
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	import '@splidejs/splide/dist/css/themes/splide-default.min.css';
 
@@ -8,7 +9,7 @@
 		autoplay: true,
 		pauseOnHover: false,
 		arrows: 'slider',
-		height: '15rem'
+		height: '30rem'
 	};
 </script>
 
@@ -30,3 +31,16 @@
 		</div>
 	</svelte:fragment>
 </Splide>
+
+<style>
+	.slide-progress {
+		background: #ccc;
+	}
+
+	.slide-progress-bar {
+		background: greenyellow;
+		height: 2px;
+		transition: width 400ms ease;
+		width: 0;
+	}
+</style>
