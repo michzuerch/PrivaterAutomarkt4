@@ -1,8 +1,11 @@
 <script>
 	import Navbar from '../components/navbar.svelte';
+
+	import Carousel from '../components/carousel.svelte';
 </script>
 
 <div class="p-6 space-y-8">
+	<Carousel />
 	<main>
 		<div class="container mx-auto space-y-16">
 			<section class="grid gap-6 text-center lg:grid-cols-2 xl:grid-cols-5">
