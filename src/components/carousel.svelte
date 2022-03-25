@@ -13,33 +13,48 @@
 	};
 </script>
 
-<Splide {options} hasSliderWrapper>
-	<SplideSlide>
-		<img src="Autos/Gallery/1.jpg" alt="Image 1" />
-	</SplideSlide>
-	<SplideSlide>
-		<img src="Autos/Gallery/2.jpg" alt="Image 2" />
-	</SplideSlide>
-	<svelte:fragment slot="after-slider">
-		<div class="splide__progress">
-			<div class="splide__progress__bar" />
-		</div>
+<div class="wrapper">
+	<Splide {options} hasSliderWrapper>
+		<SplideSlide>
+			<img src="Autos/Gallery/1.jpg" alt="Image 1" />
+			<div>Porsche</div>
+		</SplideSlide>
+		<SplideSlide>
+			<img src="Autos/Gallery/2.jpg" alt="Image 2" />
+			<div>New car</div>
+		</SplideSlide>
+		<SplideSlide>
+			<img src="Autos/Gallery/3.jpg" alt="Image 3" />
+		</SplideSlide>
+		<SplideSlide>
+			<img src="Autos/Gallery/4.jpg" alt="Image 4" />
+		</SplideSlide>
+		<SplideSlide>
+			<img src="Autos/Gallery/5.jpg" alt="Image 5" />
+		</SplideSlide>
 
-		<div class="splide__autoplay">
-			<button class="splide__play">Play</button>
-			<button class="splide__pause">Pause</button>
-		</div>
-	</svelte:fragment>
-</Splide>
+		<svelte:fragment slot="after-slider">
+			<div class="splide__progress">
+				<div class="splide__progress__bar" />
+			</div>
+
+			<div class="splide__autoplay">
+				<button class="splide__play">Play</button>
+				<button class="splide__pause">Pause</button>
+			</div>
+		</svelte:fragment>
+	</Splide>
+</div>
 
 <style>
-	.slide-progress {
-		background: #ccc;
+	.splide-progress {
+		background: #000;
 	}
 
-	.slide-progress-bar {
-		background: greenyellow;
-		height: 2px;
+	.splide-progress-bar {
+		background: white;
+		color: red;
+		height: 5px;
 		transition: width 400ms ease;
 		width: 0;
 	}
