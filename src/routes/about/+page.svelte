@@ -14,10 +14,9 @@
 	<pre>npm create svelte@latest</pre>
 
 	<p class="bg-red-200">
-		Testseite
-		The page you're looking at is purely static HTML, with no client-side interactivity needed.
-		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
-		the devtools network panel and reloading.
+		Testseite The page you're looking at is purely static HTML, with no client-side interactivity
+		needed. Because of that, we don't need to load any JavaScript. Try viewing the page's source, or
+		opening the devtools network panel and reloading.
 	</p>
 
 	<p>
@@ -25,3 +24,16 @@
 		using it with JavaScript disabled!
 	</p>
 </div>
+<div>
+	<button class="btn">Hello daisyUI</button>
+</div>
+
+<div class="collapse">
+	<input type="checkbox" class="peer" /> 
+	<div class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+	  Click me to show/hide content
+	</div>
+	<div class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"> 
+	  <p>hello</p>
+	</div>
+  </div>
