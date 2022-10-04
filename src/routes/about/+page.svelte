@@ -3,7 +3,7 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-column">
+<div class="text-blue-700">
 	<h1>About this app</h1>
 
 	<p>
@@ -13,7 +13,8 @@
 
 	<pre>npm create svelte@latest</pre>
 
-	<p>
+	<p class="bg-red-200">
+		Testseite
 		The page you're looking at is purely static HTML, with no client-side interactivity needed.
 		Because of that, we don't need to load any JavaScript. Try viewing the page's source, or opening
 		the devtools network panel and reloading.
