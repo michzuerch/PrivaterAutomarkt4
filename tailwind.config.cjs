@@ -1,11 +1,16 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 
 	theme: {
-		extend: {}
+		extend: {
+			sans: ['uncut-sans', ...defaultTheme.fontFamily.sans],
+			serif: ['sprat', ...defaultTheme.fontFamily.serif]
+		}
 	},
 
-	plugins: [require('@tailwindcss/typography'), require('daisyui')],
+	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms'), require('daisyui')],
 
 	daisyui: {
 		styled: true,

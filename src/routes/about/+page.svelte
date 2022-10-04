@@ -3,10 +3,10 @@
 	<meta name="description" content="About this app" />
 </svelte:head>
 
-<div class="text-blue-700">
-	<h1>About this app</h1>
+<div>
+	<h1 class="text-5xl text-blue-500">Test for custom fonts</h1>
 
-	<p>
+	<p class="text-xl text-red-400">
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
 		following into your command line and following the prompts:
 	</p>
@@ -44,13 +44,13 @@
 <article class="prose lg:prose-xl">
 	<h1>Garlic bread with cheese: What the science tells us</h1>
 	<p>
-	  For years parents have espoused the health benefits of eating garlic bread with cheese to their
-	  children, with the food earning such an iconic status in our culture that kids will often dress
-	  up as warm, cheesy loaf for Halloween.
+		For years parents have espoused the health benefits of eating garlic bread with cheese to their
+		children, with the food earning such an iconic status in our culture that kids will often dress
+		up as warm, cheesy loaf for Halloween.
 	</p>
 	<p>
-	  But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
-	  springing up around the country.
+		But a recent study shows that the celebrated appetizer may be linked to a series of rabies cases
+		springing up around the country.
 	</p>
 	<!-- ... -->
-  </article>
+</article>
