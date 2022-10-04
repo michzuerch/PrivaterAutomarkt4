@@ -4,9 +4,9 @@
 </svelte:head>
 
 <div>
-	<h1 class="text-5xl text-blue-500">Test for custom fonts</h1>
+	<h1 class="text-5xl text-blue-500 font-serif">Test for custom fonts</h1>
 
-	<p class="text-xl text-red-400">
+	<p class="text-xl text-red-400 font-sans">
 		This is a <a href="https://kit.svelte.dev">SvelteKit</a> app. You can make your own by typing the
 		following into your command line and following the prompts:
 	</p>
