@@ -4,7 +4,11 @@ import adapterNode from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
 
 export default {
-	preprocess: preprocess(),
+	preprocess: [
+		preprocess({
+			postcss: true
+		})
+	],
 	kit: {
 		adapter: adapter({
 			// default options are shown. On some platforms
