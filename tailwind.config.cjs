@@ -5,8 +5,10 @@ const config = {
 
 	theme: {
 		extend: {
-			sans: ['uncut-sans', ...defaultTheme.fontFamily.sans],
-			serif: ['sprat', ...defaultTheme.fontFamily.serif]
+			fontFamily: {
+				sans: ['uncut-sans', ...defaultTheme.fontFamily.sans],
+				serif: ['sprat', ...defaultTheme.fontFamily.serif]
+			}
 		}
 	},
 
