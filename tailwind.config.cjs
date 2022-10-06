@@ -13,7 +13,13 @@ const config = {
 		}
 	},
 
-	plugins: [require('@tailwindcss/typography'),require('@tailwindcss/lineclamp'), require('@tailwindcss/forms'), require('daisyui')],
+	plugins: [
+		require('@tailwindcss/typography'),
+		require('@tailwindcss/line-clamp'),
+		require('@tailwindcss/aspect-ratio'),
+		require('@tailwindcss/forms'),
+		require('daisyui')
+	],
 
 	daisyui: {
 		styled: true,
