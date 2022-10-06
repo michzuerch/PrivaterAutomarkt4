@@ -1,16 +1,21 @@
 <script>
 	import '../app.postcss';
 	import Header from './Header.svelte';
+	import Footer from './Footer.svelte';
 </script>
 
 <div class="app">
-	<header />
+	<header>
+		<Header/>
+		</header>
 
 	<main>
-		<slot />
+		<div class="w-full h-full mx-auto p-20 bg-[#ffdb04]">
+			<slot />
+		</div>
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<Footer/>
 	</footer>
 </div>
