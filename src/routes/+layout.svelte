@@ -6,16 +6,16 @@
 
 <div class="app">
 	<header>
-		<Header/>
-		</header>
+		<Header />
+	</header>
 
 	<main>
-		<div class="w-full h-full mx-auto p-20 bg-[#ffdb04]">
+		<div class="w-full h-full mx-auto p-20">
 			<slot />
 		</div>
 	</main>
 
 	<footer>
-		<Footer/>
+		<Footer />
 	</footer>
 </div>
