@@ -8,7 +8,7 @@
 	<div class="navbar bg-base-100">
 		<div class="navbar-start">
 			<div class="dropdown">
-				<label class="btn btn-ghost lg:hidden">
+				<label tabindex="0" class="btn btn-ghost lg:hidden">
 					<svg
 						xmlns="http://www.w3.org/2000/svg"
 						class="h-5 w-5"
@@ -39,7 +39,9 @@
 			</ul>
 		</div>
 		<div class="navbar-end">
-			<a href="https://mobile.de" class="btn">Unsere Fahrzeuge auf mobile.de</a>
+			<a href="https://home.mobile.de/PRIVATERAUTOMARKTRADOLFZELL#ses" target="_blank" class="btn"
+				>Unsere Fahrzeuge auf mobile.de</a
+			>
 		</div>
 	</div>
 </header>

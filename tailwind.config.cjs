@@ -2,6 +2,7 @@ const defaultTheme = require('tailwindcss/defaultTheme');
 
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
+	darkMode: 'media',
 
 	theme: {
 		extend: {
@@ -12,7 +13,7 @@ const config = {
 		}
 	},
 
-	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms'), require('daisyui')],
+	plugins: [require('@tailwindcss/typography'),require('@tailwindcss/lineclamp'), require('@tailwindcss/forms'), require('daisyui')],
 
 	daisyui: {
 		styled: true,

@@ -4,10 +4,10 @@
 </script>
 
 <svelte:head>
-	<title>Galerie</title>
+	<title>Impressum</title>
 	<meta name="description" content="Svelte demo app" />
 </svelte:head>
 
 <section>
-	<h1>Galerie</h1>
+	<h1>Impressum</h1>
 </section>
