@@ -4,7 +4,7 @@
 </script>
 
 <!-- svelte-ignore a11y-missing-attribute -->
-<footer class="text-gray-900 body-font bg-yellow-500">
+<footer class="body-font">
 	<div class="container px-5 py-3 mx-auto">
 		<div class="flex flex-wrap md:text-left text-center justify-center ">
 			<div class="md:w-1/2 w-full px-4">
