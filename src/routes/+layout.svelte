@@ -10,7 +10,7 @@
 	</header>
 
 	<main>
-		<div class="w-full h-full mx-auto p-20">
+		<div class="w-full mx-auto p-5">
 			<slot />
 		</div>
 	</main>

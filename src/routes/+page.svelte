@@ -4,12 +4,26 @@
 </script>
 
 <svelte:head>
-	<title>Home</title>
-	<meta name="description" content="Svelte demo app" />
+	<title>Privater Automarkt Radolfzell</title>
+	<meta name="description" content="Privater Automarkt Radolfzell" />
 </svelte:head>
 
 <section>
-	<h1>
+	<div class="hero min-h-screen" style="background-image: url(https://placeimg.com/1000/400/arch);">
+		<div class="hero-overlay bg-opacity-60" />
+		<div class="hero-content text-center text-neutral-content">
+			<div class="max-w-md">
+				<h1 class="mb-5 text-5xl font-bold">Privater Automarkt, Radolfzell</h1>
+				<p class="mb-5">
+					Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
+					exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+				</p>
+				<button class="btn btn-primary">Unsere Fahrzeuge auf mobile.de</button>
+			</div>
+		</div>
+	</div>
+
+	<!-- 	<h1>
 		<span class="welcome">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
@@ -23,4 +37,5 @@
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
+ -->
 </section>

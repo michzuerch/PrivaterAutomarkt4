@@ -1,6 +1,6 @@
 <script>
 	// make dynamic date to be added to footer
-	let date = new Date().getFullYear();
+	//let date = new Date().getFullYear();
 </script>
 
 <!-- svelte-ignore a11y-missing-attribute -->

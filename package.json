@@ -12,9 +12,9 @@
 		"format": "prettier --plugin-search-dir . --write ."
 	},
 	"devDependencies": {
+		"@beyonk/gdpr-cookie-consent-banner": "^9.0.4",
 		"@fontsource/fira-mono": "^4.5.0",
 		"@fontsource/noto-sans": "4.5.11",
-		"@neoconfetti/svelte": "^1.0.0",
 		"@playwright/test": "^1.25.0",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-node": "next",
