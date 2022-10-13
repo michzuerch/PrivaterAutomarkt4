@@ -3,8 +3,10 @@
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "vite dev",
-		"build": "vite build",
 		"preview": "vite preview",
+		"build": "vite build",
+		"build-prod": "NODE_ENV=production vite build",
+		"server": "http-server ./build -c60 -p 8080 ",
 		"test": "playwright test",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
@@ -28,6 +30,7 @@
 		"@typescript-eslint/eslint-plugin": "^5.27.0",
 		"@typescript-eslint/parser": "^5.27.0",
 		"autoprefixer": "^10.4.7",
+		"cssnano": "^5.1.13",
 		"eslint": "^8.16.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
@@ -47,6 +50,7 @@
 	"type": "module",
 	"dependencies": {
 		"daisyui": "^2.31.0",
+		"http-server": "^14.1.1",
 		"theme-change": "^2.2.0"
 	}
 }

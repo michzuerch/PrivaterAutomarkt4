@@ -9,16 +9,21 @@
 </svelte:head>
 
 <section>
-	<div class="hero min-h-screen" style="background-image: url(https://placeimg.com/1000/400/arch);">
+	<div class="hero min-h-screen" style="background-image: url(/Hero.jpg);">
 		<div class="hero-overlay bg-opacity-60" />
 		<div class="hero-content text-center text-neutral-content">
-			<div class="max-w-md">
-				<h1 class="mb-5 text-5xl font-bold">Privater Automarkt, Radolfzell</h1>
+			<div class="max-w-full">
+				<h1 class="mb-5 text-5xl font-bold break-before-column">Privater Automarkt</h1>
+				<h2 class="text-3xl">Radolfzell</h2>
 				<p class="mb-5">
 					Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi
 					exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
 				</p>
-				<button class="btn btn-primary">Unsere Fahrzeuge auf mobile.de</button>
+				<a
+					href="https://home.mobile.de/PRIVATERAUTOMARKTRADOLFZELL#ses"
+					target="_blank"
+					class="btn glass">Unsere Fahrzeuge auf mobile.de</a
+				>
 			</div>
 		</div>
 	</div>
@@ -35,6 +40,7 @@
 	</h1>
 
 	<h2>
+
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
  -->
