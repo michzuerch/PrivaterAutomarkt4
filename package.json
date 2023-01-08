@@ -15,7 +15,7 @@
 		"gh-pages": "gh-pages -d examples/build"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.20.0",
+		"@playwright/test": "^1.29.2",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/adapter-static": "next",
 		"@sveltejs/kit": "next",
